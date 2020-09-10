@@ -1,4 +1,9 @@
-package com.training;
+package com.training.runner;
+
+import com.training.factorial.Factorial;
+import com.training.factorial.FactorialFactory;
+import com.training.fibonacci.Fibonacci;
+import com.training.fibonacci.FibonacciFactory;
 
 import java.util.Scanner;
 

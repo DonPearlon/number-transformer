@@ -1,4 +1,4 @@
-package com.training;
+package com.training.factorial;
 
 /**
  * Abstract class used to calculate factorial of a number.

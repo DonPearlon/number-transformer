@@ -1,4 +1,4 @@
-package com.training;
+package com.training.fibonacci;
 
 /**
  * Class used to create an instance of the Fibonacci class.

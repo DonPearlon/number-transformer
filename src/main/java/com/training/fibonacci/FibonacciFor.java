@@ -1,4 +1,4 @@
-package com.training;
+package com.training.fibonacci;
 
 /**
  * Class used to calculate a sequence of Fibonacci numbers with 'For' cycle.

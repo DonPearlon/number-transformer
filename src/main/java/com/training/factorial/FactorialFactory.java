@@ -1,4 +1,4 @@
-package com.training;
+package com.training.factorial;
 
 /**
  * Class used to create an instance of the Factorial class.

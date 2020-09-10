@@ -1,34 +1,32 @@
-package com.training;
+package com.training.fibonacci;
 
 /**
- * Class used to calculate a sequence of Fibonacci numbers with 'Do-While'
- * cycle.
+ * Class used to calculate a sequence of Fibonacci numbers with 'While' cycle.
  *
  * @author Alexandr_Terehov
  */
-public class FibonacciDoWhile extends Fibonacci {
+public class FibonacciWhile extends Fibonacci {
     /**
      * Constructor.
      *
      * @param number
      *            quantity of Fibonacci sequence numbers.
      */
-    public FibonacciDoWhile(int number) {
+    public FibonacciWhile(int number) {
         super(number);
     }
 
     /**
-     * Method used to calculate a sequence of Fibonacci numbers with 'Do-While'
-     * cycle.
+     * Method used to calculate a sequence of Fibonacci numbers with 'While' cycle.
      */
     @Override
     protected void calcFibonacciWithCycle() {
         int i = 3;
         int n = fibonacciArray.length;
-        do {
+        while (i < n) {
             fibonacciArray[i] = fibonacciArray[i - 1] + fibonacciArray[i - 2];
             i++;
-        } while (i < n);
-        System.out.println("Fibonacci numbers has been created using 'Do-While' cycle");
+        }
+        System.out.println("Fibonacci numbers has been created using 'While' cycle");
     }
 }

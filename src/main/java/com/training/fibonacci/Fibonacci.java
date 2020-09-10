@@ -1,4 +1,4 @@
-package com.training;
+package com.training.fibonacci;
 
 /**
  * Abstract class used to calculate a sequence of Fibonacci numbers.

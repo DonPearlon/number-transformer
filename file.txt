@@ -1,2 +1,5 @@
 new line
 another line
+
+some new line
+some new line 2

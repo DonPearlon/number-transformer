@@ -6,3 +6,8 @@ some new line 2
 
 some changes
 some new changes
+
+extra changes
+
+---------------------------------------------
+something I don't need

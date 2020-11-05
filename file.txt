@@ -3,3 +3,6 @@ another line
 
 some new line
 some new line 2
+
+some changes
+some new changes
